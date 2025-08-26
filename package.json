@@ -1,0 +1,11 @@
+{
+  "name": "bingo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx sass sass/custom.scss css/custom.css --style=compressed",
+    "watch": "npx sass --watch sass/custom.scss css/custom.css --style=compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.79.0"
+  }
+}
